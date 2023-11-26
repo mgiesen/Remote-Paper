@@ -1,0 +1,40 @@
+{
+	"name": "remote-paper",
+	"version": "1.0.0",
+	"description": "Mirror drawings from tablet to PC/Mac with QR code access to drawing canvas",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mgiesen/Remote-Paper.git"
+	},
+	"author": "Maximilian Giesen",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mgiesen/Remote-Paper/issues"
+	},
+	"homepage": "https://github.com/mgiesen/Remote-Paper#readme",
+	"dependencies": {
+		"express": "^4.18.2",
+		"fs": "^0.0.1-security",
+		"http": "^0.0.1-security",
+		"ws": "^8.14.2"
+	},
+	"devDependencies": {
+		"electron": "^27.1.2",
+		"electron-builder": "^24.9.1"
+	},
+	"build": {
+		"appId": "https://github.com/mgiesen/Remote-Paper",
+		"productName": "Remote Paper",
+		"directories": {
+			"output": "dist"
+		},
+		"win": {
+			"target": "nsis",
+			"icon": "icon/app_icon.ico"
+		}
+	}
+}
