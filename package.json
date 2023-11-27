@@ -4,6 +4,7 @@
 	"description": "Mirror drawings from tablet to PC/Mac with QR code access to drawing canvas",
 	"main": "main.js",
 	"scripts": {
+		"start": "electron .",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
