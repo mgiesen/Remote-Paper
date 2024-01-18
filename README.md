@@ -8,7 +8,7 @@ Remote-Paper ermöglicht die Spiegelung eines Skizzen-Blattes auf den Desktop be
 
 Sobald sich ein Client über die Computer-IP und den Port mit dem Server verbindet, öffnet sich automatisch ein neues Dokument, das mit dem Tablet gespiegelt wird. Die Kommunikation erfolgt über Websockets.
 
-![Alt](readme/usage.gif)
+https://github.com/mgiesen/Remote-Paper/assets/29503989/d04d8017-4bbe-442d-a703-7b18f05334f4
 
 Das Projekt war ein Nachmittagsprojekt und steckt noch in der Kinderschuhen. Sinvolle nächste Schritte:
 
